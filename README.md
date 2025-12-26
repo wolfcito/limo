@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+# akawolfcito.eth.limo
 
-## Project info
+Personal portfolio website for Wolfcito (@akawolfcito) — Web3 Builder & DenLabs Founder.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About
 
-## How can I edit this code?
+Building onchain tools & mini-products at DenLabs. Focused on spray, identity, treasury rails, and x402 / ERC-8004 experiments on the Superchain.
 
-There are several ways of editing your application.
+**Location**: Colombia 🇨🇴
+**Ecosystem**: Optimism Superchain
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Framework**: React 18 + Vite
+- **Language**: TypeScript
+- **UI Library**: shadcn/ui + Radix UI
+- **Styling**: Tailwind CSS
+- **State Management**: TanStack Query
+- **Routing**: React Router DOM
+- **Forms**: React Hook Form + Zod
 
-Changes made via Lovable will be committed automatically to this repo.
+## Development
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 18+ (recommended: use [nvm](https://github.com/nvm-sh/nvm))
+- npm, pnpm, or bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/wolfcito/akawolfcito.eth.limo.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to project directory
+cd akawolfcito.eth.limo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server (http://localhost:8080)
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run dev        # Start development server
+npm run build      # Build for production
+npm run build:dev  # Build in development mode
+npm run preview    # Preview production build
+npm run lint       # Run ESLint
+```
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/
+│   ├── ui/              # shadcn/ui components
+│   ├── HeroSection.tsx  # Hero with avatar and social links
+│   ├── NowSection.tsx   # Current activities
+│   ├── ProjectsSection.tsx
+│   ├── EcosystemSection.tsx
+│   ├── ContentSection.tsx
+│   └── Footer.tsx
+├── pages/
+│   ├── Index.tsx        # Main landing page
+│   └── NotFound.tsx     # 404 page
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+└── main.tsx            # Application entry point
+```
 
-## What technologies are used for this project?
+## Features
 
-This project is built with:
+- ✨ Modern, minimal design with glass-morphism aesthetics
+- 🎨 Custom avatar and banner integration
+- 📱 Fully responsive (mobile-first)
+- 🚀 Fast page loads with Vite
+- 🎯 Type-safe with TypeScript
+- ♿ Accessible UI components via Radix UI
+- 🌓 Theme support with CSS variables
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+The site can be deployed to any static hosting service:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- Vercel (recommended)
+- Netlify
+- Cloudflare Pages
+- GitHub Pages
+- IPFS/ENS for decentralized hosting
 
-## Can I connect a custom domain to my Lovable project?
+## Links
 
-Yes, you can!
+- **Portfolio**: [akawolfcito.eth.limo](https://akawolfcito.eth.limo)
+- **DenLabs**: [denlabs.vercel.app](https://denlabs.vercel.app)
+- **GitHub**: [@wolfcito](https://github.com/wolfcito)
+- **X/Twitter**: [@akawolfcito](https://x.com/akawolfcito)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT License - feel free to use this as a template for your own portfolio.
+
+---
+
+**Built with** ❤️ **by Wolfcito**
